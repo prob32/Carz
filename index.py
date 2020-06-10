@@ -21,6 +21,7 @@ from homepage import Homepage
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.UNITED])
 app.config.suppress_callback_exceptions = True
+server = app.server
 
 app.layout = html.Div([
     dcc.Location(id = 'url', refresh = False),
@@ -166,4 +167,4 @@ def rf_return (n_clicks,year,make,model,mileage,):
     rf_predictions = int(rfc.predict(estimate))
     return rf_predictions
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(port=8080, debug=True)
