@@ -19,10 +19,10 @@ app2.py<- Random forest vs OLS page, includes layouts and graph templates
 # Heroku web based requirments
 requirments.txt <- a list of imported packages for heroku to download to run the app
 
-procfile <- required for heroku to run the app
+procfile <- tell heroku what to launch
 
 favicon <- url image widget 
 
-gui<- tell heroku what to launch
+git.ignore<- required for heroku to run the app
 
 All other files are imports for the program and include model import saved in compressed format, images to call and data sets to import for analysis 
