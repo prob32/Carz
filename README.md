@@ -6,7 +6,7 @@ https://carz2.herokuapp.com/
 
 This dash app was built using Plotly, Dash and Dash bootstrap packages on python
 
-# The basic outline of this program is as follow:
+# The basic outline of this program is as follows:
 
 index.py <- Master python file that runs the web application, all callbacks are based on this page 
 homepage.py <-Home page layout and verbage
